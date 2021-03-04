@@ -10,7 +10,7 @@ body {
   width: 50rem;
 }
 
-.intro {
+.intro, .intro a, .intro a:visited {
   margin: auto;
   padding: 0;
   text-align: center;
@@ -34,6 +34,16 @@ body {
 
 .mapboxgl-popup-content {
   font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+
+.mapboxgl-popup-content a, a:visited{
+  color: #017081;
+}
+
+.mapboxgl-popup-content a:hover{
+  color: #00252f;
 }
 
 .map-overlay {

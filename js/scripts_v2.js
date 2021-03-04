@@ -126,11 +126,11 @@ map.on('load', function () {
       var coordinates = e.features[0].geometry.coordinates.slice();
       var html = `
       <div>
-      <h3 style = "text-align: center;">${e.features[0].properties.name}
-      <br>
-      <a href="${e.features[0].properties.contact}" target="_blank">Organization Website</a>
-      </h3>
+      <h2>${e.features[0].properties.name}</h2>
       <p>${e.features[0].properties.description}</p>
+      <p style = "font-size: 11px;">
+        <a href="${e.features[0].properties.contact}" target="_blank">Organization Website</a>
+      </p>
       </div>
       `
 
@@ -146,7 +146,7 @@ map.on('load', function () {
       .setHTML(html)
       .addTo(map);
 
-      map.flyTo({
+      map.easeTo({
         center: coordinates,
         zoom: 4
       });
