@@ -32,6 +32,9 @@ body {
   margin: 0 auto;
 }
 
+.mapboxgl-popup-content {
+  font-family: 'Trebuchet MS', sans-serif;
+}
 
 .map-overlay {
   position: absolute;
@@ -46,9 +49,6 @@ body {
   font-size: 14px;
 }
 
-.mapboxgl-popup-content {
-  font-family: 'Trebuchet MS', sans-serif;
-}
 
 #legend {
   padding: 10px;
