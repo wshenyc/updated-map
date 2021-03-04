@@ -39,7 +39,7 @@
         "name":"TransWave Jamica",
         "continent":"South America",
         "worktype":"Trans Rights",
-        "description":"The National Network of Abortion Funds builds power with members to remove financial and logistical barriers to abortion access by centering people who have abortions and organizing at the intersections of racial, economic, and reproductive justice.",
+        "description":"TransWave is a non-governmental organization working to advance the health, welfare, and well-being of the transgender community in Jamaica and the Caribbean.",
         "contact":"https://transwaveja.org/"
       }
     },
@@ -271,14 +271,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates":  [ 3.33343837,6.637851046 ]
+        "coordinates":  [ -9.42275556572337, 6.602453110805437]
       },
       "properties": {
-        "name":"The Initiative for Equal Rights (TIERS)",
+        "name":"West Africa Trans Forum (WATF)",
         "continent":"Africa",
-        "worktype":"LBTQ/Women",
-        "description":"The Initiative for Equal Rights (TIERs) works to protect, uphold and promote the rights and humanity of all Nigerians through advocacy, empowerment, education, and the provision of safe platforms of convergence. ",
-        "contact":"https://theinitiativeforequalrights.org/"
+        "worktype":"Trans Rights",
+        "description":"West Africa Trans Forum (WATF) is a network of Trans * people and/or groups led by Trans, intersex and non-conforming * people in West Africa.",
+        "contact":"https://www.facebook.com/West-African-Trans-Forum-105797177500842/"
       }
     },
     {
